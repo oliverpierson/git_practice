@@ -11,4 +11,5 @@ def gcd(a, b):
         return gcd(b, a % b)
 
 def binomial(n, k):
+    ''' n choose k'''
     return fact(n) / ( fact(k) * fact(n-k) )
