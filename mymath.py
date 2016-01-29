@@ -5,6 +5,7 @@ def fact(n):
         return n * fact(n-1)
 
 def gcd(a, b):
+    ''' greatest common divisor of a and b'''
     if b == 0:
         return a
     else:
